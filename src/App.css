@@ -1,0 +1,527 @@
+.cardabout{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.17%;
+/* or 30px */
+display: inline-block;
+padding-right: 20%;
+color: #000000;
+
+}
+.cardtruncatepart{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 134.17%;
+display: inline-block;
+
+}
+.cardname{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+
+padding-left: 10px;
+margin-top: auto; margin-bottom: auto; 
+color: #000000;
+  /* align-self: center; */
+
+}
+.cardaboutthreedots{
+
+
+display: flex;
+justify-items: auto;
+}
+.smallphotonameeye{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+  display: flex;
+  
+  
+  
+  gap: 10px;
+}
+.viewseyeshare{
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  justify-items: center;
+  
+ height: auto;
+
+text-align: right;
+margin-top: auto; margin-bottom: auto; 
+
+
+}
+.views{
+  
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #525252;
+
+}
+.shareicon{
+  background: #EDEEF0;
+border-radius: 2px;
+padding: 5px;
+margin-left: 20px;
+}
+.aligncenter{
+  align-self: center;
+}
+.datelocation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.location{
+margin: auto;
+display: flex;
+gap: 10px;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.date{
+  display: flex;
+  gap: 10px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+     
+}
+.threedots{
+  background: #BFC0C0;
+border-radius: 4px;
+transform: rotate(-180deg);
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+color: #000000;
+}
+
+/* @for $i from 1 through 3 {
+  #x-#{$i} {
+    position: absolute;
+  width: 160px;
+height: 102px;
+right: 0px;
+top: 0px;
+  }
+} */
+
+
+
+
+/* 
+#x{
+  
+
+
+
+} */
+.threebuttonmenu{
+  background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+padding-left: 8px;
+padding-top: 8px;
+padding-bottom: 2px;
+}
+.rel{
+  position: relative;
+  top: 30px;
+}
+.viewwebsite{
+  justify-items: center;
+  background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+border-radius: 8px;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.viewwebsitetext{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140.4%;
+/* or 18px */
+
+text-align: center;
+
+color: #E56135;
+
+}
+.sugges{
+  /* display: flex; */
+  border-bottom: 0.4px solid #B8B8B8;
+  display: inline-flex;
+}
+.inputsugges{
+  outline: none;
+  border: none;
+  /* border-left: none;
+  border-right: none;
+
+  */
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+color: #000000;
+padding-bottom: 6px;
+padding-left: 5px;
+}
+.locationandcrossinsugges{
+  padding-bottom: 10px;
+  color: #000000;
+}
+.mainsugges{
+  /* width: auto; */
+  width:inherit;
+  margin-top: 4%;
+}
+.recomgroup{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+margin-top: 4%;
+display:flex;
+/* margin: 0 1px; */
+gap: 5px;
+
+
+}
+.thumb{
+  /* margin-bottom: 5px; */
+  position: relative;
+  bottom: 2px;
+  display: inline-block;
+}
+.recom1{
+  justify-self: baseline;
+  display: inline-block;
+}
+.recomimage{
+  
+width: 42px;
+height: 42px;
+
+border-radius: 21px;
+
+}
+.recomlist{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.listcont{
+  margin-top: 4%;
+}
+.imgtopic{
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+.topic{
+  justify-self: center;
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+margin-top: auto; margin-bottom: auto;
+color: #000000;
+
+}
+.butto{
+  background: #EDEEF0;
+border-radius: 14px;
+
+}
+.divbutto{
+  margin-top: auto; margin-bottom: auto;
+}
+.seemore{
+  
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: right;
+
+color: #2F6CE5;
+margin-top: 7%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 6px;
+  /* position: fixed; */
+  /* z-index: 1; */
+  background-color: white;
+  width: 100%;
+}
+.headerinput{
+  border: none;
+  background: #F2F2F2;
+  border-radius: 21px;
+  width: 250px;
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #5C5C5C;
+
+}
+.search{
+  background: #F2F2F2;
+border-radius: 21px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+
+
+
+}
+.createaccount{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+
+color: #2E2E2E;
+}
+.itsfree{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  text-align: right;
+  color:#2F6CE5;
+  padding-left: 2px;
+}
+.poster{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h1left{
+  display: flex;
+  justify-content: baseline;
+  
+}
+.writeapost{
+  background: #EDEEF0;
+border-radius: 4px;
+padding: 10px;
+display: flex;
+gap: 8px;
+}
+.mainh1{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  /* align-content: baseline; */
+  
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color:#BFC0C0;
+  /* position: fixed; */
+  width: 100%;
+  /* margin-top: 50px; */
+  background-color: white;
+  /* z-index: 1; */
+}
+.joinagroup{
+  background: #2F6CE5;
+  /* background: #EDEEF0; */
+  border-radius: 4px;
+  padding: 10px;
+border-radius: 4px;
+display: flex;
+gap: 7px;
+}
+.writeapostjoingroup{
+  display: flex;
+  gap: 4px;
+}
+.navop{
+  /* padding: 5px; */
+  
+}
+.b{
+  border-style: none;
+  background-color: white;
+  margin-bottom: 0px;
+ 
+  height: 100%;
+  width: 100%;
+  /* height: 5px; */
+}
+.b:focus{
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+.locationpara{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.modalhead{
+  background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+}
+.inputactive:focus{
+  border-right-style: none;
+  outline: none;
+}
+.createaccount1{
+  background: #2F6CE5;
+border-radius: 20px;
+width: 100%;
+margin-top: 20px;
+padding: 10px;
+text-align: center;
+
+}
+.facebooklogin{
+  width: 100%;
+margin-top: 20px;
+padding: 10px;
+text-align: center;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+border-radius: 2px;
+
+}
+.modalp{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3D3D3D;
+}
+.modalp1{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #2F6CE5;
+}
+.abc{
+ width: 100%;
+ margin-top: 25px;
+ /* margin-right: 0px; */
+ text-align: right;
+}
+.lastdiv{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+/* text-align: right; */
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+text-align: center;
+}
+/* .modal{
+  z-index: 100;
+} */
+.modal-backdrop {
+  /* bug fix - no overlay */    
+  display: none;    
+}
+.forgotpassword{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  text-align: right;
+  
+  color: #3D3D3D;
+  
+}

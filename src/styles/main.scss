@@ -1,0 +1,10 @@
+@for $i from 1 through 10 {
+  #x#{$i} {
+    position: absolute;
+  width: 160px;
+height: 102px;
+right: 0px;
+top: 0px;
+
+  }
+}
